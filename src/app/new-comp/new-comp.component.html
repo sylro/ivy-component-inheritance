@@ -1,0 +1,4 @@
+<p>list : not working</p>
+<button *ngFor="let act of actions" (click)="this[act]()">{{act}}</button>
+<p>unique : working</p>
+<button (click)="this[action]()">{{action}}</button>

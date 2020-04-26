@@ -1,14 +1,13 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { TestComponent } from './test/test.component';
-import { AbstractComponent } from './abstract/abstract.component';
+import { NewCompComponent } from './new-comp/new-comp.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent
+    NewCompComponent
   ],
   imports: [
     BrowserModule,
