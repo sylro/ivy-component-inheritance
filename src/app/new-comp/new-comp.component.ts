@@ -8,14 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class NewCompComponent implements OnInit {
 
   action: string = "testAction";
-  actions = ["testAction"]
+  actions = ["testAction", "anotherTestAction"]
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  testAction(toto) {
+  testAction() {
     console.log("ok");
+  }
+
+  anotherTestAction() {
+    console.log("another ok");
   }
 }
